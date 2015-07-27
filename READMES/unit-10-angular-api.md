@@ -3,28 +3,11 @@
 ##Summary
 Angular-API will teach you the fundamentals of Angular
 
+Our goal in this challenge is to build an angular app that will serve as a marketing page for the scraping API we built in the previous unit. 
 
-In this challenge, we will scrape data from a website, parsing the content. A user should be able to make a GET request to one of your routes, and your server should respond with the data you scraped.
-
-We will be working with a module called [cheerio](https://github.com/cheeriojs/cheerio). Cheerio allows users to interact with pages on the server similar to the way they interact with the DOM using jQuery.
-
-##How do I get started?
-1. Run ```npm install``` in your terminal to install external dependencies.
-
-1. Complete the assignment in ```server/scraper.js```.
-
-1. To start your server run ```npm start```.
-
-**BONUS**
-1. Have your API gather data from more than one site.
-  - Example: a GET request to /cats gets a list of cats pictures from three different sites
-
-1. Add additional routes
-  - Examples: a GET request to /cats, /dogs, /people
-
-
-##How do I test if my answer is correct?
-There are two ways to test your code
-1. Visit your route in your browser. The browser sends an http GET request to your route. Your server should respond with the data you scraped.
-
-1. Run ```npm test``` in your terminal
+# Getting Started
+1.  `bower install` to install our angular dependencies
+1.  Hop into the client folder and take a look at whats going on in there.
+1. The dependency injection has already been set up for you, we have a homepage set up that uses [ui-router](https://github.com/angular-ui/ui-router/wiki) . (a great way to get the hang of it is to check out [their sample app](http://angular-ui.github.io/ui-router/sample/). Remember this is javascript so feel free to browse the source code.
+1. Use the different templates and figure out how you would use angular to sell your api.
+1. Run `npm start` and go to `localhost:3000`
